@@ -34,3 +34,31 @@
 // }
 
 // Console.WriteLine(String.Join(",", numArr));
+
+//Задача №3
+// Задайте массив. Напишите, программу которая определяет присутсвуте ли данное число в массиве или нет
+// 4; массив {6,7,9,20,3,1}----> нет
+
+// Console.WriteLine("Введите любое число");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// int[] numArr = new int[] { 1, -600, 500, 25, -1 };
+// Console.WriteLine(String.Join(",", numArr));
+
+// bool flag = false;
+
+// for (int i = 0; i < numArr.Length; i++)
+// {
+//     if (numArr[i] == num)
+//     {
+//         flag = true;
+//     }
+// }
+// if (flag == true)
+// {
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("нет");
+// }

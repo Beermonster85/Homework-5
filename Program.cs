@@ -125,3 +125,29 @@
 // }
 // Console.WriteLine(String.Join(",", numArr));
 // Console.WriteLine(sum);
+
+//Task #3
+//Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+//[3 7 22 2 78] -> 76
+
+// int[] numArr = new int[] { 3, 7, 22, 2, 78 };
+// int min = numArr[0];
+// int max = numArr[0];
+
+// for (int i = 0; i < numArr.Length; i++)
+// {
+//     if (numArr[i] > max)
+//     {
+//         max = numArr[i];
+//     }
+//     else if (numArr[i] < min)
+//     {
+//         min = numArr[i];
+//     }
+// }
+// Console.WriteLine(String.Join(",", numArr) + "\nразница между max и min=" + (max - min));
+// Console.WriteLine("максимум=" + max);
+// Console.WriteLine("минимум =" + min);
+
+
+

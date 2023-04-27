@@ -106,3 +106,22 @@
 // }
 // Console.WriteLine(String.Join(",", numArr));
 // Console.WriteLine(count);
+
+
+// Задача №2
+//Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+//[3, 7, 23, 12] -> 19
+//[-4, -6, 89, 6] -> 0
+
+// int[] numArr = new int[4];
+
+// int sum = 0;
+
+// for (int i = 1; i < numArr.Length;)
+// {
+//     numArr[i] = new Random().Next(1, 100);
+//     sum = sum + numArr[i];
+//     i = i + 2;
+// }
+// Console.WriteLine(String.Join(",", numArr));
+// Console.WriteLine(sum);
